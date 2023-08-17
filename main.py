@@ -13,11 +13,11 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Load the model from file
-with open('/Users/matthewfard/PycharmProjects/flaskProject/code_model.pkl', 'rb') as f:
+with open('code_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load the model from file
-with open('/Users/matthewfard/PycharmProjects/flaskProject/result_model2.pkl', 'rb') as f:
+with open('result_model2.pkl', 'rb') as f:
     result_model = pickle.load(f)
 
 # Replace 'YOUR_API_KEY' with your actual API key
